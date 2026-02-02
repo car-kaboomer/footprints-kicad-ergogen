@@ -1,0 +1,138 @@
+(footprint "slider-tht"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J*"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75011382-8edd-485f-9e04-af9171d96059")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSK-12D19"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57fcedfd-7ce2-4692-9878-9325feaea93c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0396e39a-968f-40f6-acb1-3ed0833c1dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31e59943-8c9b-412e-acdc-f0ad6ac2701f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 1.75 -2.5)
+		(end 0.25 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ce3500f9-1802-46d3-9592-579be43425b6")
+	)
+	(fp_rect
+		(start 4.5 1)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1cdc668-c3f8-4f9a-976d-41dd33d3ea61")
+	)
+	(fp_rect
+		(start 1.75 -2.5)
+		(end -1.75 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be49d563-2138-4e64-abb7-3f00ad6070ca")
+	)
+	(fp_rect
+		(start 4.5 1)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6dd3f98d-5cd2-4677-b76c-0b40545a22e3")
+	)
+	(pad "1" thru_hole oval
+		(at 2.5 0 180)
+		(size 1.3 1)
+		(drill oval 0.8 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.15)
+		(uuid "66703f6a-ce8e-4de5-86e7-4d021f7be864")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 180)
+		(size 1.3 1)
+		(drill oval 0.8 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.15)
+		(uuid "08dca9ad-79fb-4e37-aaa9-c29fe06c2746")
+	)
+	(pad "3" thru_hole oval
+		(at -2.5 0 180)
+		(size 1.3 1)
+		(drill oval 0.8 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.15)
+		(uuid "0ecf918b-329b-4072-9e40-2872dba13ec2")
+	)
+	(embedded_fonts no)
+	(model "../../../../../../Users/pluis/Documents/Magic Briefcase/Documents/KiCad/3d/AB2_TRS_3p5MM_PTH.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.42 0.42 0.42)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

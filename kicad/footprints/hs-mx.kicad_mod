@@ -1,4 +1,4 @@
-(footprint "hsmx"
+(footprint "hs-mx"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -475,8 +475,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
-		(size 1.75 1.75)
-		(drill 1.75)
+		(size 1.7 1.7)
+		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(uuid "ec8122ca-7f62-429e-878f-11558e016561")
 	)
@@ -489,8 +489,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
-		(size 1.75 1.75)
-		(drill 1.75)
+		(size 1.7 1.7)
+		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(uuid "cc9b3f43-dda1-4ddd-b125-29d2dfb90375")
 	)

@@ -53,17 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_arc
-		(start -4.364824 -2.70022)
-		(mid -4.718377 -2.846667)
-		(end -4.864824 -3.20022)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1cc0dc55-30db-477e-ac4f-a16af1790fb7")
-	)
 	(fp_line
 		(start -6.45 6.124999)
 		(end -3.45 6.124999)
@@ -916,6 +905,22 @@
 		(layer "B.Fab")
 		(uuid "5a20b7f8-466c-4b6b-b165-75ba711fa3cd")
 	)
+	(pad "" thru_hole circle
+		(at 5.08 0)
+		(size 2.25 2.25)
+		(drill 1.7)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "5d0eff5f-0480-41e5-8033-bb43da157a62")
+	)
+	(pad "" thru_hole circle
+		(at 5.5 0)
+		(size 2 2)
+		(drill 1.7)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "6c754a32-1b58-4bf3-bae1-6c684c4a87cd")
+	)
 	(pad "1" smd roundrect
 		(at -8.245 3.75 180)
 		(size 2.65 2.6)
@@ -1010,22 +1015,6 @@
 		(size 1.65 2.5)
 		(layers "B.Cu")
 		(uuid "65e61f8f-d9ab-4ae1-b4ce-00526c36b153")
-	)
-	(pad "2" thru_hole circle
-		(at 5.08 0)
-		(size 2.25 2.25)
-		(drill 1.7)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "5d0eff5f-0480-41e5-8033-bb43da157a62")
-	)
-	(pad "2" thru_hole circle
-		(at 5.5 0)
-		(size 2 2)
-		(drill 1.7)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "6c754a32-1b58-4bf3-bae1-6c684c4a87cd")
 	)
 	(pad "2" smd roundrect
 		(at 6.09 -5.08 180)

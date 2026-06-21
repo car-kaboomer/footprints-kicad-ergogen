@@ -1,13 +1,13 @@
 (footprint "xiao-pogo-rev"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "U?"
 		(at -19.3989 -11.28268 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5326c5ce-bd79-4d83-9fe1-b63ad6daea44")
+		(uuid "ee177a26-1eb5-4f3a-9be5-58db156339f5")
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -19,7 +19,7 @@
 		(at -19.8434 -0.29718 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a363bbd5-79f5-4e5c-8a41-0664c22cb1ba")
+		(uuid "844b6fbd-0f0d-4a61-b7f5-e652def2aab6")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dcd8ac8a-ae0b-421f-9b2f-b493d92ae6dc")
+		(uuid "1cf09fde-c28b-46a5-9207-c37dc8fc4f5a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68e50284-5763-4773-8619-1918c4c99d50")
+		(uuid "4a7a377c-4c42-4f8c-92da-3a73ce07e56a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,25 +52,116 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -3.36 6.895)
-		(end -7.5807 6.895)
+		(start -7.5807 0)
+		(end -6.3357 1.245)
 		(stroke
 			(width 0.3)
 			(type solid)
 		)
 		(layer "F.Cu")
-		(uuid "8d711065-59e5-441a-be1b-6352131b13dd")
+		(uuid "6c1343f3-1ff2-41e6-bf70-d7bf095e265e")
 	)
 	(fp_line
-		(start 3.35 6.895)
-		(end 7.5807 6.895)
+		(start -3.36 1.245)
+		(end -6.3357 1.245)
 		(stroke
 			(width 0.3)
 			(type solid)
 		)
 		(layer "F.Cu")
-		(uuid "41f71a7a-1d09-4ceb-80db-d979ec6ceece")
+		(uuid "6ee9cbef-f815-40aa-8bcd-a07856a013f7")
+	)
+	(fp_line
+		(start -3.36 3.145)
+		(end -7.5807 3.145)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "b309df08-b256-4d70-9f8e-545bc4fb0516")
+	)
+	(fp_line
+		(start -3.36 5.045)
+		(end -7.5807 5.045)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "130a8bac-92f2-491a-952c-6933e6396e11")
+	)
+	(fp_line
+		(start -3.36 6.945)
+		(end -7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "bceb5c24-d055-46ba-b7ce-814fd87efad4")
+	)
+	(fp_line
+		(start 1.6 -4.94)
+		(end 2.032667 -4.939967)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "daf4b7f5-11bf-4219-8d7c-c48f21d51b34")
+	)
+	(fp_line
+		(start 2.032667 -4.939967)
+		(end 2.6227 -5.53)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "f436038d-e2ab-4230-82c4-01259b794e34")
+	)
+	(fp_line
+		(start 3.35 1.245)
+		(end 6.3357 1.245)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "b1e0eed6-afde-4d6d-a40a-e36b06496df4")
+	)
+	(fp_line
+		(start 3.35 3.145)
+		(end 7.5807 3.145)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "dc2c2a7d-c55e-4ba0-8888-67b6ff19425e")
+	)
+	(fp_line
+		(start 3.35 5.045)
+		(end 7.5807 5.045)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "5ac562fa-7853-4bbb-89c2-84f10084b42b")
+	)
+	(fp_line
+		(start 3.35 6.945)
+		(end 7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "1afa7d92-5707-4ff7-b492-4d888de947b0")
 	)
 	(fp_line
 		(start 4.5327 -5.53)
@@ -80,7 +171,17 @@
 			(type solid)
 		)
 		(layer "F.Cu")
-		(uuid "1a4e0bed-1491-40aa-8ae0-b4a1d497396d")
+		(uuid "a4c6a550-51cc-47e5-bc63-ec5d23cfacf9")
+	)
+	(fp_line
+		(start 6.3357 1.245)
+		(end 7.5807 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "a96d237a-f36a-4f75-ac19-69eed344c254")
 	)
 	(fp_poly
 		(pts
@@ -92,7 +193,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "3c7717fa-ba92-4f56-8c26-49b35a50387e")
+		(uuid "6feb3d5c-ab70-4fc3-b138-b1e6468ae866")
 	)
 	(fp_poly
 		(pts
@@ -104,7 +205,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "a7a42b7e-098c-4f93-95a7-29050d2be685")
+		(uuid "621aa7d0-e114-4c84-b543-73c2434ab7f0")
 	)
 	(fp_poly
 		(pts
@@ -116,11 +217,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "10b75035-cae6-4397-860b-9bbd1bdf94da")
+		(uuid "244df5d6-f421-4c10-8bce-45273311f446")
 	)
 	(fp_poly
 		(pts
-			(xy -2.334 6.377453) (xy -2.334 7.393453) (xy -3.35 7.393453) (xy -3.35 6.377453)
+			(xy -2.334 0.727453) (xy -2.334 1.743453) (xy -3.35 1.743453) (xy -3.35 0.727453)
 		)
 		(stroke
 			(width 0.1)
@@ -128,11 +229,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "5b74089e-84f8-4e44-8aed-27c4d7d61ab2")
+		(uuid "142e7b42-ae57-4ade-b2fe-1503272dc132")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 0.432) (xy -1.0907 1.448) (xy -2.1067 1.448) (xy -2.1067 0.432)
+			(xy -2.334 2.627453) (xy -2.334 3.643453) (xy -3.35 3.643453) (xy -3.35 2.627453)
 		)
 		(stroke
 			(width 0.1)
@@ -140,11 +241,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "c8f200cf-31c8-4495-a79c-6a320a0edca6")
+		(uuid "e1413c4b-5031-426b-b8e6-b88dc8af9a00")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 2.432) (xy -1.0907 3.448) (xy -2.1067 3.448) (xy -2.1067 2.432)
+			(xy -2.334 4.527453) (xy -2.334 5.543453) (xy -3.35 5.543453) (xy -3.35 4.527453)
 		)
 		(stroke
 			(width 0.1)
@@ -152,11 +253,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "5214394d-55c4-442d-bf0e-ad491a43b7ef")
+		(uuid "23946969-d057-44b4-a38d-68488ac75502")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 4.432) (xy -1.0907 5.448) (xy -2.1067 5.448) (xy -2.1067 4.432)
+			(xy -2.334 6.427453) (xy -2.334 7.443453) (xy -3.35 7.443453) (xy -3.35 6.427453)
 		)
 		(stroke
 			(width 0.1)
@@ -164,11 +265,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "25bf38ca-b97d-41a1-b014-c3d06cfd5b00")
+		(uuid "8f5c4ae2-1b09-44fe-85a4-ab13bada9ce3")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 1.468) (xy 1.0907 0.452) (xy 2.1067 0.452) (xy 2.1067 1.468)
+			(xy 2.334 1.751177) (xy 2.334 0.735177) (xy 3.35 0.735177) (xy 3.35 1.751177)
 		)
 		(stroke
 			(width 0.1)
@@ -176,11 +277,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "0743d9e1-e495-47fa-9dd8-6beb2d2ff402")
+		(uuid "ef824615-eb29-4a09-b2c3-c7bc2ef98cc8")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 3.468) (xy 1.0907 2.452) (xy 2.1067 2.452) (xy 2.1067 3.468)
+			(xy 2.334 3.651177) (xy 2.334 2.635177) (xy 3.35 2.635177) (xy 3.35 3.651177)
 		)
 		(stroke
 			(width 0.1)
@@ -188,11 +289,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "4a619928-4941-42b9-884d-3342895f6a7a")
+		(uuid "641cff1f-b164-4f5f-be9d-2af54779b411")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 5.468) (xy 1.0907 4.452) (xy 2.1067 4.452) (xy 2.1067 5.468)
+			(xy 2.334 5.551177) (xy 2.334 4.535177) (xy 3.35 4.535177) (xy 3.35 5.551177)
 		)
 		(stroke
 			(width 0.1)
@@ -200,11 +301,11 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "a6ef6292-5318-4d4e-ab1d-46736a264905")
+		(uuid "8bc2e3a7-bdc0-4f3b-b666-64bba9721f1b")
 	)
 	(fp_poly
 		(pts
-			(xy 2.334 7.401177) (xy 2.334 6.385177) (xy 3.35 6.385177) (xy 3.35 7.401177)
+			(xy 2.334 7.451177) (xy 2.334 6.435177) (xy 3.35 6.435177) (xy 3.35 7.451177)
 		)
 		(stroke
 			(width 0.1)
@@ -212,7 +313,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "8fef85ed-5639-4da3-9ffb-bc54cfa7377e")
+		(uuid "7eb30307-181f-4019-9dff-3c6a34a79c6f")
 	)
 	(fp_poly
 		(pts
@@ -224,7 +325,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "48d78b66-8f5f-4195-b3d2-738ce445875e")
+		(uuid "fc137f5b-a861-4688-b173-ebd9f479740d")
 	)
 	(fp_poly
 		(pts
@@ -236,7 +337,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "af6ace7d-bacd-4566-a8e1-9cf1f1bb487c")
+		(uuid "22787b32-6ecf-45b4-ba61-1ba37bcdc497")
 	)
 	(fp_poly
 		(pts
@@ -248,17 +349,17 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "60350697-a910-471f-b68c-859e8122dfe6")
+		(uuid "89d6ef8c-a0d7-4141-a00d-511d109e5af6")
 	)
 	(fp_line
-		(start -6 -15.2)
-		(end -3.6 -15.2)
+		(start -7.5807 0)
+		(end -6.3357 1.245)
 		(stroke
-			(width 0.2)
-			(type default)
+			(width 0.3)
+			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "cc4a436e-0704-46c4-9a20-f2eff99e10ff")
+		(uuid "b7ae430a-0d3f-469a-835d-8262c1d05238")
 	)
 	(fp_line
 		(start -4.5527 -7.62)
@@ -268,17 +369,57 @@
 			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "8a602eb0-1557-4499-8563-85c8453fee89")
+		(uuid "884bf162-3764-48c0-96a5-e611d03214a5")
 	)
 	(fp_line
-		(start -3.35 6.895)
-		(end -7.5807 6.895)
+		(start -3.36 1.245)
+		(end -6.3357 1.245)
 		(stroke
 			(width 0.3)
 			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "77ffe8be-11d2-431f-a118-6abca32e9288")
+		(uuid "c8c13cae-c311-40cc-b6c0-3a18fa7bbd70")
+	)
+	(fp_line
+		(start -3.35 3.145)
+		(end -7.5807 3.145)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "9d7d69e6-2bae-4e1a-a954-198e6e5fa822")
+	)
+	(fp_line
+		(start -3.35 5.045)
+		(end -7.5807 5.045)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "d08cb7b3-2089-42af-ad29-1eefaec1acff")
+	)
+	(fp_line
+		(start -3.35 6.945)
+		(end -7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "545ed44c-39e0-4ca8-9b16-cc4a55ebc551")
+	)
+	(fp_line
+		(start -3.35 6.945)
+		(end -7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "f8e9ae4b-ec31-46e9-b93c-b29332ef3dfd")
 	)
 	(fp_line
 		(start -3.3 -8.07)
@@ -288,7 +429,7 @@
 			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "b454dada-0de2-4e4e-a2f9-71e758482e18")
+		(uuid "c6899908-b93f-4445-8e9a-2bcd44fa4442")
 	)
 	(fp_line
 		(start -2.29 -7.27)
@@ -298,17 +439,67 @@
 			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "ddca55cb-d22f-48b5-9e1b-a089b71c50e6")
+		(uuid "ec49cf2e-4d76-472e-bbb6-dc4e371fd6ef")
 	)
 	(fp_line
-		(start 3.35 6.895)
-		(end 7.5807 6.895)
+		(start 3.35 3.145)
+		(end 7.5807 3.145)
 		(stroke
 			(width 0.3)
 			(type solid)
 		)
 		(layer "B.Cu")
-		(uuid "f77f4a31-a795-43cb-b2ca-a6b5fb1bd461")
+		(uuid "7eb3c3f1-2f90-4790-8bee-2ad833dfd405")
+	)
+	(fp_line
+		(start 3.35 5.045)
+		(end 7.5807 5.045)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "6ff1f30b-11e3-4530-8267-90562cccac1b")
+	)
+	(fp_line
+		(start 3.35 6.945)
+		(end 7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "27773bdd-d440-4f0a-9ea5-577627346684")
+	)
+	(fp_line
+		(start 3.35 6.945)
+		(end 7.5807 6.945)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "e3a07f42-b080-4032-9fd9-0df15d7c4250")
+	)
+	(fp_line
+		(start 3.36 1.245)
+		(end 6.3357 1.245)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "d9500762-1bb0-4335-9252-39c60ce4ef4c")
+	)
+	(fp_line
+		(start 7.5807 0)
+		(end 6.3357 1.245)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "B.Cu")
+		(uuid "91bf1dfa-6ca3-42ba-b117-0d2f10357075")
 	)
 	(fp_poly
 		(pts
@@ -320,7 +511,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "9ba27f8a-31a2-47d8-821e-01551989f60d")
+		(uuid "3b596a0c-c0bd-49a4-97fc-5acbcb27507e")
 	)
 	(fp_poly
 		(pts
@@ -332,7 +523,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "d858c29c-fd07-4cb8-8e45-98678c5e2d76")
+		(uuid "9885f305-5e5f-4f7e-9876-4fa7dbd8141a")
 	)
 	(fp_poly
 		(pts
@@ -344,11 +535,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "e08dfe0c-15f7-42b2-9c74-a7b42908999a")
+		(uuid "47618ebf-12c2-463a-9796-b40535af065b")
 	)
 	(fp_poly
 		(pts
-			(xy -2.334 6.377453) (xy -2.334 7.393453) (xy -3.35 7.393453) (xy -3.35 6.377453)
+			(xy -2.334 0.727453) (xy -2.334 1.743453) (xy -3.35 1.743453) (xy -3.35 0.727453)
 		)
 		(stroke
 			(width 0.1)
@@ -356,11 +547,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "7225885f-5318-4fd5-8193-a7607d80d68c")
+		(uuid "84cb9591-8c1d-4962-aa88-a075fe29152e")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 0.432) (xy -1.0907 1.448) (xy -2.1067 1.448) (xy -2.1067 0.432)
+			(xy -2.334 2.627453) (xy -2.334 3.643453) (xy -3.35 3.643453) (xy -3.35 2.627453)
 		)
 		(stroke
 			(width 0.1)
@@ -368,11 +559,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "d97bcd6d-5551-4c08-976b-23ca28296b94")
+		(uuid "7c5b0f95-98cb-40fd-b537-c001a999d729")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 2.432) (xy -1.0907 3.448) (xy -2.1067 3.448) (xy -2.1067 2.432)
+			(xy -2.334 4.527453) (xy -2.334 5.543453) (xy -3.35 5.543453) (xy -3.35 4.527453)
 		)
 		(stroke
 			(width 0.1)
@@ -380,11 +571,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "93ad679b-eb60-4130-af57-8b546f8055cc")
+		(uuid "208beaeb-6eaf-49ce-adef-3a869ab13319")
 	)
 	(fp_poly
 		(pts
-			(xy -1.0907 4.432) (xy -1.0907 5.448) (xy -2.1067 5.448) (xy -2.1067 4.432)
+			(xy -2.334 6.427453) (xy -2.334 7.443453) (xy -3.35 7.443453) (xy -3.35 6.427453)
 		)
 		(stroke
 			(width 0.1)
@@ -392,11 +583,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "eca0a3f7-c684-4120-a46e-bcc3560c688d")
+		(uuid "2ead6538-7900-41a9-9edc-1fb995c7f2cf")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 1.468) (xy 1.0907 0.452) (xy 2.1067 0.452) (xy 2.1067 1.468)
+			(xy 2.334 1.751177) (xy 2.334 0.735177) (xy 3.35 0.735177) (xy 3.35 1.751177)
 		)
 		(stroke
 			(width 0.1)
@@ -404,11 +595,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "3c37e3f0-2d60-40b5-8e32-039af8dbb520")
+		(uuid "56acca58-de29-4a80-9589-3f40bd818c91")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 3.468) (xy 1.0907 2.452) (xy 2.1067 2.452) (xy 2.1067 3.468)
+			(xy 2.334 3.651177) (xy 2.334 2.635177) (xy 3.35 2.635177) (xy 3.35 3.651177)
 		)
 		(stroke
 			(width 0.1)
@@ -416,11 +607,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "ee1cc5ba-e39c-475d-b43e-518a461e3bc7")
+		(uuid "18ecd79a-4f89-4b29-ba30-f0d879531a1f")
 	)
 	(fp_poly
 		(pts
-			(xy 1.0907 5.468) (xy 1.0907 4.452) (xy 2.1067 4.452) (xy 2.1067 5.468)
+			(xy 2.334 5.551177) (xy 2.334 4.535177) (xy 3.35 4.535177) (xy 3.35 5.551177)
 		)
 		(stroke
 			(width 0.1)
@@ -428,11 +619,11 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "ac846322-a697-4ccb-9dd8-41ad9f270f4f")
+		(uuid "a554dd1b-120d-4813-a5ec-8b8718a2dae5")
 	)
 	(fp_poly
 		(pts
-			(xy 2.334 7.401177) (xy 2.334 6.385177) (xy 3.35 6.385177) (xy 3.35 7.401177)
+			(xy 2.334 7.451177) (xy 2.334 6.435177) (xy 3.35 6.435177) (xy 3.35 7.451177)
 		)
 		(stroke
 			(width 0.1)
@@ -440,7 +631,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "419f7784-d997-451d-ac4f-e3a192d667b4")
+		(uuid "c80cf647-b37e-4c10-87e8-e2765960f182")
 	)
 	(fp_poly
 		(pts
@@ -452,7 +643,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "2c3f2719-d9f3-4f74-8dda-72b170a1417f")
+		(uuid "306d7ca8-bcf3-4780-9cdb-b8ebd11cc711")
 	)
 	(fp_poly
 		(pts
@@ -464,7 +655,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "86c10c15-dce7-4d57-9722-7ee4dff47411")
+		(uuid "d11c17bd-a3ec-4b4b-88c7-88f60a59a083")
 	)
 	(fp_poly
 		(pts
@@ -476,7 +667,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "7f3fe688-020e-452a-97fa-14ab0dba8f77")
+		(uuid "a9b3fdb8-c31a-481c-bf37-382508dbb7fe")
 	)
 	(fp_line
 		(start -8.9 -8.5)
@@ -486,7 +677,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4d7cf910-7e0a-43a7-9c26-93bc4afa0f70")
+		(uuid "96084542-97fe-4cd3-8767-a34f521823bd")
 	)
 	(fp_line
 		(start -6.9 -10.5)
@@ -496,7 +687,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "13fcdfc3-ca4a-4a2e-8456-82cfbeedcf38")
+		(uuid "4dae81f5-85d7-476a-ad1a-5773a71106f9")
 	)
 	(fp_line
 		(start -6.9 10.5)
@@ -506,7 +697,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f405695e-673a-4fde-920a-a2a0c641e620")
+		(uuid "d20392f6-21e0-4d13-aa25-6c515c0750b1")
 	)
 	(fp_line
 		(start -4.95 1.07)
@@ -516,7 +707,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "961284af-87de-4fa6-a137-34ed205b9779")
+		(uuid "531eae74-45cc-48fc-b499-b1e0d0abf8cb")
 	)
 	(fp_line
 		(start -4.5 -11.9)
@@ -526,7 +717,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4b428a8e-d335-4f45-8ee8-e5afbb8219af")
+		(uuid "5ec8c85c-b112-4c92-9fbd-a22c9721b5dd")
 	)
 	(fp_line
 		(start -4.5 -10.5)
@@ -536,7 +727,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a2dd2a71-e968-4e3e-86aa-3470efc6253f")
+		(uuid "aeac8f52-b812-478c-ac2a-43521e00dec4")
 	)
 	(fp_line
 		(start -4.45 0.57)
@@ -546,7 +737,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8b9be1f9-b42c-481f-98b9-931bd6320d7f")
+		(uuid "c1cb238d-2248-44e3-abe1-c6bb3408e557")
 	)
 	(fp_line
 		(start -1.27 -7.4)
@@ -556,7 +747,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "51514d8d-5553-4d88-bccc-04b00d693dd2")
+		(uuid "584f5a58-6189-4fd7-a76f-3639fa525ae2")
 	)
 	(fp_line
 		(start -0.77 -7.9)
@@ -566,7 +757,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7865fe44-f70b-4db2-a356-1ee7340067aa")
+		(uuid "10102a9b-ba79-4cfb-8a47-acd799513ad1")
 	)
 	(fp_line
 		(start 2.419998 9.099998)
@@ -576,7 +767,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "3a14a309-c55e-405b-b6cb-214223796fe4")
+		(uuid "6bc35779-29d4-4ff4-a6c0-560f7afd3c86")
 	)
 	(fp_line
 		(start 2.92 9.6)
@@ -586,7 +777,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "e8d34527-0b60-4daf-97a7-fe50f99b2695")
+		(uuid "dfc7bff6-8eca-44fd-af04-c3d3f93347b6")
 	)
 	(fp_line
 		(start 4.5 -11.9)
@@ -596,7 +787,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5340ae2f-1e65-4af7-bd17-1bb03f6f544b")
+		(uuid "0758c899-4f36-4cb6-8529-c0548aafdcdc")
 	)
 	(fp_line
 		(start 4.5 -10.5)
@@ -606,7 +797,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "46148708-18ae-459f-ae5f-3e5dc6424f47")
+		(uuid "bd3c8657-3554-4a1c-8e6c-86c3121bbafb")
 	)
 	(fp_line
 		(start 8.9 8.5)
@@ -616,7 +807,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e5b66b37-6c92-466d-92ba-2bd4958b249a")
+		(uuid "498f2f5e-39bf-446a-9d20-a27e1ffb9751")
 	)
 	(fp_arc
 		(start -8.9 -8.5)
@@ -627,7 +818,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "39569a80-d285-4335-aee4-9e049ae77283")
+		(uuid "c5f1e336-6278-4e64-93d6-d7e741468647")
 	)
 	(fp_arc
 		(start -6.9 10.5)
@@ -638,7 +829,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "467884bf-ad84-4c60-b601-2c898c56aa53")
+		(uuid "73794c5f-ca89-41ce-adde-7790b7050e52")
 	)
 	(fp_arc
 		(start 6.9 -10.5)
@@ -649,7 +840,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aeaaee92-a041-4bd6-bee8-84c4663c7584")
+		(uuid "bbf983d2-e0c6-4b6d-a6e9-da22419d38b1")
 	)
 	(fp_arc
 		(start 8.9 8.5)
@@ -660,7 +851,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a556ab55-bb23-485d-b241-2c02301b7db9")
+		(uuid "7369b33d-a578-4089-98fc-d887864a9996")
 	)
 	(fp_line
 		(start -8.9 8.5)
@@ -670,7 +861,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "86d087aa-55ed-48cf-8102-4f49287021a7")
+		(uuid "3e8202ca-db62-4907-8edb-aa308100ccfa")
 	)
 	(fp_line
 		(start -4.5 -11.9)
@@ -680,7 +871,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "63e4792d-e8ef-47d0-9a79-baec9c25eaab")
+		(uuid "8127fe9e-586a-4f5a-a675-01bba7a6ba5c")
 	)
 	(fp_line
 		(start -4.5 -10.5)
@@ -690,7 +881,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "632a10df-885e-4de2-a184-cc88b4197959")
+		(uuid "b7be6fa8-b961-405a-8a91-f09613032cda")
 	)
 	(fp_line
 		(start -2.88 9.600002)
@@ -700,7 +891,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "cb138e18-7e0b-483b-8786-7db260522625")
+		(uuid "09fa8c68-affd-41ee-a6dd-d8b96dd3d7eb")
 	)
 	(fp_line
 		(start -2.379998 9.1)
@@ -710,7 +901,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "c1b5c47d-3973-4ec5-8205-0160703a7ce2")
+		(uuid "b220fa2d-b234-483e-9abf-3878c600c6fe")
 	)
 	(fp_line
 		(start 0.77 -7.9)
@@ -720,7 +911,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "38ca02a4-0c43-42f7-91f9-f923276d4a81")
+		(uuid "f0c95a89-3de4-48fd-bf61-653d2c21acfe")
 	)
 	(fp_line
 		(start 1.27 -7.4)
@@ -730,7 +921,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "b0a00adc-16e2-4936-bdf6-f0cda1c4246a")
+		(uuid "d8fcc3c6-2798-46ff-83e3-6c47d476cfb7")
 	)
 	(fp_line
 		(start 4.4 0.57)
@@ -740,7 +931,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "94061896-32bf-4c96-90f2-77844517e679")
+		(uuid "38d634bb-1728-4ec0-bd94-fc3eb054bec2")
 	)
 	(fp_line
 		(start 4.5 -11.9)
@@ -750,7 +941,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "06298077-45a6-4499-9c3b-628ed3c662a0")
+		(uuid "cf33e6b4-2ad1-46d1-a541-fbae043ff3fb")
 	)
 	(fp_line
 		(start 4.5 -10.5)
@@ -760,7 +951,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "cde3bc39-3295-4357-9fb6-67ec11dffc67")
+		(uuid "3101b5a3-52f2-4268-af8c-64722dfac7e9")
 	)
 	(fp_line
 		(start 4.83 1.07)
@@ -770,7 +961,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "6241d016-8511-437e-b21e-8acc784b75c5")
+		(uuid "041ef4d3-3478-4dd5-9860-1fba9c29bd69")
 	)
 	(fp_line
 		(start 6.899999 -10.499999)
@@ -780,7 +971,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "bac3bab1-7fb3-4bf1-9d9b-5616cd6c9a1c")
+		(uuid "e0f6fff5-ff0a-43df-b741-586bced5c3d6")
 	)
 	(fp_line
 		(start 6.9 10.499998)
@@ -790,7 +981,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "e48b452a-57b1-431e-90f2-86ac6ed99784")
+		(uuid "922d7581-5912-4e6d-b9dc-015d58a649e7")
 	)
 	(fp_line
 		(start 8.900001 -8.499999)
@@ -800,7 +991,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "e8e3faa4-2d8c-422c-a703-a3f1093a68a9")
+		(uuid "d9c36e9e-0125-41d4-ac64-bda677864460")
 	)
 	(fp_arc
 		(start -8.9 -8.5)
@@ -811,7 +1002,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "3103cace-c928-4cc0-9cec-bfc7630eab5c")
+		(uuid "b27568e8-d41f-4ce7-97c0-2e8f560b6039")
 	)
 	(fp_arc
 		(start -6.899999 10.5)
@@ -822,7 +1013,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "9bc4e7f6-f786-437d-9c3e-9d25e4b4f113")
+		(uuid "252f3ec0-0ea7-479a-8d4b-88643b081264")
 	)
 	(fp_arc
 		(start 6.9 -10.499999)
@@ -833,7 +1024,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "5084f06e-56f5-40ca-9d92-c91fe4e7ea37")
+		(uuid "e8719fdd-7487-464a-9800-2b0199cfe467")
 	)
 	(fp_arc
 		(start 8.9 8.5)
@@ -844,7 +1035,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "21e92d92-a04f-4359-9c7f-48cfe48a120b")
+		(uuid "af83a260-4d77-42bb-bf29-732a59aa0402")
 	)
 	(fp_rect
 		(start -8.89 10.5)
@@ -855,7 +1046,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "c01094df-7cce-47cd-973c-ee8739d3ab73")
+		(uuid "15734e20-b410-4f02-b869-3b40a9ac761a")
 	)
 	(fp_rect
 		(start -9.5 -10.5)
@@ -866,7 +1057,7 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "9d1d0275-2500-4cd8-8c40-acecbdfa0f97")
+		(uuid "b3bea729-5738-4869-963b-7089e0c42a7b")
 	)
 	(fp_rect
 		(start -9.5 -10.5)
@@ -877,13 +1068,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "25a2ef5f-3cb3-4e1d-b064-a853263ba7d3")
+		(uuid "17816b8f-de2c-4e33-8559-98f425828e80")
 	)
-	(fp_text user "(BAT+)"
-		(at -4.46 2.11 0)
+	(fp_text user "pogo up"
+		(at -4.46 1.21 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "04466ff6-69a3-48e0-b3f3-709e7e7745a4")
+		(uuid "2eaf5431-26b2-494b-ab81-098412252f26")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -893,11 +1084,11 @@
 			(justify top)
 		)
 	)
-	(fp_text user "pogo up"
-		(at -4.46 1.21 0)
+	(fp_text user "(BAT+)"
+		(at -4.46 2.11 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "05ba322b-2aeb-41d6-9b97-8fbe9fae13c6")
+		(uuid "51cbcc32-4f88-4e9d-a13f-72b9fffef4f7")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -911,7 +1102,7 @@
 		(at -1.27 -8.35 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "41f5c61b-9c6b-4260-8032-ae51619a53c2")
+		(uuid "57dc6f55-7ecd-4fed-a2db-ce97cca50515")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -921,23 +1112,53 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "BAT+"
-		(at 4.445 0.95 0)
+	(fp_text user "(RST)"
+		(at -1.26 -9.67 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "534130f6-d89b-4670-a0cb-10ad72665bad")
+		(uuid "fe6e97f3-26fd-4c8a-a1fc-90bb52edae21")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
+				(bold yes)
 			)
+			(justify top)
+		)
+	)
+	(fp_text user "XIAO\nFACE UP\n"
+		(at 0 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "43eeb59f-0f65-47cc-89e5-c1b3335411fe")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "CLOSE JUMPERS\nON BACK"
+		(at 0 -0.068 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2a08f337-8623-49dd-8445-bd8528bb1518")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(fp_text user "pogos up"
 		(at 0.49 9.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "64ea8c1b-2daa-4279-a4d9-c82f479aae7e")
+		(uuid "20b2a7d2-0458-4753-a3fa-1a3d898d4ead")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -951,7 +1172,7 @@
 		(at 1.27 -4.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "990eb94c-ad84-400e-8d65-8dc9b4c5cba1")
+		(uuid "4969d8ff-bafd-4ce8-9faa-ada92fd41499")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -959,95 +1180,23 @@
 			)
 		)
 	)
-	(fp_text user "(RST)"
-		(at -1.26 -9.67 0)
+	(fp_text user "BAT+"
+		(at 4.445 0.95 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b219c756-81f3-4ea1-a557-4db8bc3625c5")
+		(uuid "8168895c-8514-42a1-a47a-09c8f6146533")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
-				(bold yes)
 			)
-			(justify top)
 		)
 	)
-	(fp_text user "CLOSE JUMPERS\nON BACK"
-		(at 0 -0.068 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "b493dcf7-47ba-43b3-8518-509f0626975b")
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "XIAO\nFACE UP\n"
-		(at 0 -4.2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "d6e2a772-d401-409f-bbdd-fdbee9ccbd81")
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify top)
-		)
-	)
-	(fp_text user "XIAO\nFACE UP\n"
-		(at 0 -4.2 0)
+	(fp_text user "BAT+"
+		(at -4.445 0.95 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "0be0c934-3ae3-45c2-be0d-fcba4785d79a")
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify top mirror)
-		)
-	)
-	(fp_text user "(BAT+)"
-		(at 4.46 2.11 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "15b4c4f3-5e8a-4c16-b6e6-9b4e8a2aa6d6")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify top mirror)
-		)
-	)
-	(fp_text user "(RST)"
-		(at 1.25 -9.67 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "37baff51-b041-4d34-806e-eb344b2d0144")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify top mirror)
-		)
-	)
-	(fp_text user "RST"
-		(at -1.27 -4.85 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "445f2d1f-d028-4fa2-bf0a-af8bbd4c4bb3")
+		(uuid "094eb0d7-7a4d-4aa2-88db-611dd9978e46")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -1056,11 +1205,11 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "BAT+"
-		(at -4.445 0.95 0)
+	(fp_text user "RST"
+		(at -1.27 -4.85 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "a8e62749-a2f9-49dd-bb5d-0db091ebddee")
+		(uuid "dbcc0862-1f54-42a0-b306-a91464c63658")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -1073,7 +1222,63 @@
 		(at -0.45 9.75 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "b93a2123-a75c-4dc4-b31d-8a8a4b591ed8")
+		(uuid "1f6ed8a5-8323-432f-a138-0695dc70f122")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "XIAO\nFACE UP\n"
+		(at 0 -4.2 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "af030682-e59a-469d-8b1c-1e75a8be118b")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "CLOSE JUMPERS\nON BACK"
+		(at 0 -0.068 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "9cd5a5a7-2bdb-4a19-8944-db0f4fee681a")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "(RST)"
+		(at 1.25 -9.67 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ed08de62-4546-4615-8937-bc89a09901b2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "pogo up"
+		(at 1.27 -8.35 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "01c777a2-496f-4981-820b-2c0c6f7089ba")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -1087,7 +1292,7 @@
 		(at 4.44 1.37 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "ca534e68-a3d0-4849-94dc-f118c7988dba")
+		(uuid "52927089-2a45-4607-8a79-20d4d23dc8da")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -1097,52 +1302,19 @@
 			(justify top mirror)
 		)
 	)
-	(fp_text user "CLOSE JUMPERS\nON BACK"
-		(at 0 -0.068 0)
+	(fp_text user "(BAT+)"
+		(at 4.46 2.11 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "ce0f1e7b-663a-4a45-a63b-ca923d23d313")
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify bottom mirror)
-		)
-	)
-	(fp_text user "pogo up"
-		(at 1.27 -8.35 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "ced2369c-86bb-4757-ab86-30e241766bf5")
+		(uuid "177a0af4-5480-4325-8a5d-2c8ce4cd9502")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
 				(bold yes)
 			)
-			(justify bottom mirror)
+			(justify top mirror)
 		)
-	)
-	(pad "" smd custom
-		(at -8.55 -13 90)
-		(size 1.8 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_rect
-				(start 0.9 0)
-				(end -0.9 0.95)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "9bf87635-9137-41ba-87ae-f02efe6cf744")
 	)
 	(pad "" smd custom
 		(at -8.5307 -7.62 90)
@@ -1155,13 +1327,13 @@
 		)
 		(primitives
 			(gr_rect
-				(start 0.9 0)
-				(end -0.9 0.95)
+				(start -0.9 0)
+				(end 0.9 0.95)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "ec1d364c-1473-4439-aa85-c610b5a913c4")
+		(uuid "95ef005d-494e-4c7a-9863-4487e10f223a")
 	)
 	(pad "" smd custom
 		(at -8.5307 -7.62 90)
@@ -1174,13 +1346,13 @@
 		)
 		(primitives
 			(gr_rect
-				(start 0.9 0)
-				(end -0.9 0.95)
+				(start -0.9 0)
+				(end 0.9 0.95)
 				(width 0)
 				(fill yes)
 			)
 		)
-		(uuid "512869ac-eff2-4f6c-927c-45e013018c60")
+		(uuid "fb48d141-d7bc-469b-8f4e-7cf1ebeb5649")
 	)
 	(pad "" thru_hole custom
 		(at -7.5807 -7.62)
@@ -1200,7 +1372,7 @@
 				(width 0.5)
 			)
 		)
-		(uuid "cf71f0d0-ab49-4291-a25d-93235b51ebb0")
+		(uuid "7904367d-143a-4eb2-ba01-225807d2c248")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 -5.08)
@@ -1211,7 +1383,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "e4d9ec61-16f7-410d-891d-89481964ef82")
+		(uuid "10313325-e18b-4e9a-bd48-9359538c409a")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 -2.54)
@@ -1222,7 +1394,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "75b890e6-df6d-4a6e-acaa-0870cda0d189")
+		(uuid "084f78ae-799a-4ef2-b075-aa418fa19cca")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 0)
@@ -1233,7 +1405,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "1b7a2775-7631-4d4f-8b27-ab588adb3b7d")
+		(uuid "c9c7780c-c4ae-4494-976b-4f9b841896df")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 2.54)
@@ -1244,7 +1416,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "2caa1d4c-02f2-443a-a145-dc5854878c73")
+		(uuid "291cbf8b-f176-4afb-9561-fdc9ac43fcf2")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 5.08)
@@ -1255,7 +1427,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "761a1a33-98a4-41af-9660-18c12d51b442")
+		(uuid "676d3ed4-f4e4-4a02-993c-a0d69603d407")
 	)
 	(pad "" thru_hole oval
 		(at -7.5807 7.62)
@@ -1266,26 +1438,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "a20b891b-a240-411f-9914-9ac989f03074")
-	)
-	(pad "" smd custom
-		(at -6.95 -15.2 90)
-		(size 1.8 1.8)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_rect
-				(start 0.9 0)
-				(end -0.9 0.95)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "8d297a12-afe6-4277-8060-30a16766888d")
+		(uuid "a6af542b-332b-4358-83bd-bae3976c749b")
 	)
 	(pad "" smd custom
 		(at -6.3107 -5.08)
@@ -1297,7 +1450,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "c2a1854d-e6cd-49dc-a937-cef9582c3ad9")
+		(uuid "2851cfcf-572d-499d-994a-2dc2fcac96b3")
 	)
 	(pad "" smd custom
 		(at -6.3107 -5.08)
@@ -1309,7 +1462,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "8d8fec79-11b9-495b-a6c4-d8396e61b35f")
+		(uuid "1de5fee3-3e0b-4cc1-a501-368486445662")
 	)
 	(pad "" smd custom
 		(at -6.3107 -2.55)
@@ -1321,7 +1474,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "95508640-151c-488c-bded-eb30f2f794f8")
+		(uuid "23d17b69-2583-4a4b-a1b9-906c466bdaf0")
 	)
 	(pad "" smd custom
 		(at -6.3107 -2.55)
@@ -1333,21 +1486,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "4798247f-ae43-4111-a564-a544deb83264")
-	)
-	(pad "" thru_hole custom
-		(at -6 -15.2)
-		(size 1.8 1.8)
-		(drill 1.45)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives)
-		(uuid "1862496d-8323-4070-a122-936f166777f0")
+		(uuid "93360ebb-0ef2-4834-a4fd-c57e59ed9d2c")
 	)
 	(pad "" smd custom
 		(at -5.8027 -5.08 90)
@@ -1367,7 +1506,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "c1acffa8-7daa-48d4-9a2a-c6ef0cac8060")
+		(uuid "15bab05a-0dae-4326-9903-42d0af0f0466")
 	)
 	(pad "" smd custom
 		(at -5.8027 -5.08 90)
@@ -1387,7 +1526,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "c10ae45b-bcf7-43ae-ac92-e1e43780b8df")
+		(uuid "7de6172d-3430-4dfd-a008-ccd837b46c2c")
 	)
 	(pad "" smd custom
 		(at -5.8027 -2.55 90)
@@ -1407,7 +1546,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "96bc31be-d1ef-418e-8b81-ee5e9a293415")
+		(uuid "30f5e529-092d-4480-83d3-fbb220dd55d5")
 	)
 	(pad "" smd custom
 		(at -5.8027 -2.55 90)
@@ -1427,7 +1566,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "35f31c7b-c4ba-469e-9813-3a60ba893c67")
+		(uuid "8d0c6a65-480d-42d4-bd3d-64f6b32cfac4")
 	)
 	(pad "" smd custom
 		(at -4.5527 -7.62 90)
@@ -1447,7 +1586,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "08f64546-d6df-4924-87a0-cb032247c795")
+		(uuid "c7c8ad50-fc9e-4d51-8e9a-65b09df0f651")
 	)
 	(pad "" smd custom
 		(at -4.5527 -7.62 90)
@@ -1467,10 +1606,10 @@
 				(fill yes)
 			)
 		)
-		(uuid "92c40e1e-ca60-42e0-93dc-d14428f34ac7")
+		(uuid "423cd7fa-58ba-4c3c-a5e6-20305c991e84")
 	)
 	(pad "" smd custom
-		(at -3.096 6.885453 90)
+		(at -3.096 1.235453 90)
 		(size 0.1 0.1)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -1487,10 +1626,10 @@
 				(fill yes)
 			)
 		)
-		(uuid "99b14ec6-7f2d-44f2-a3af-782011b8eda6")
+		(uuid "64b192b5-4b8d-418c-8623-e6ce26ac2252")
 	)
 	(pad "" smd custom
-		(at -3.096 6.885453 90)
+		(at -3.096 1.235453 90)
 		(size 0.1 0.1)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -1507,337 +1646,10 @@
 				(fill yes)
 			)
 		)
-		(uuid "3ef142d7-2b40-454c-bfa6-490dd543ff83")
-	)
-	(pad "" smd rect
-		(at -1.8527 0.94 90)
-		(size 0.1 0.1)
-		(layers "B.Cu" "B.Mask")
-		(zone_connect 0)
-		(uuid "0f009644-1bb7-48cd-a5b2-b9b60254a59b")
+		(uuid "c227d131-2d4d-4a3b-89e2-8e49f8dceeb9")
 	)
 	(pad "" smd custom
-		(at -1.8527 0.94 90)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 -0.3723)
-				(end 0 -4.7973)
-				(width 0.3)
-			)
-			(gr_line
-				(start 0 -4.7973)
-				(end 0.94 -5.7373)
-				(width 0.3)
-			)
-		)
-		(uuid "29e938a2-8c97-466c-974c-3c1db21b1fc9")
-	)
-	(pad "" smd custom
-		(at -1.8527 0.94 90)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 -0.3723)
-				(end 0 -4.7973)
-				(width 0.3)
-			)
-			(gr_line
-				(start 0 -4.7973)
-				(end 0.94 -5.7373)
-				(width 0.3)
-			)
-		)
-		(uuid "6cf91c16-08d1-4cff-9945-02b9a617c3cd")
-	)
-	(pad "" smd custom
-		(at -1.8527 2.94 90)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -4.9723)
-				(width 0.3)
-			)
-		)
-		(uuid "4cc4eb72-9c50-4df9-a0c7-02c671be0063")
-	)
-	(pad "" smd custom
-		(at -1.8527 2.94 90)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -4.9723)
-				(width 0.3)
-			)
-		)
-		(uuid "c7bacfde-8126-45ac-9535-a8435ff28a5d")
-	)
-	(pad "" smd custom
-		(at -1.8527 4.94 90)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -5.003)
-				(width 0.3)
-			)
-		)
-		(uuid "a7a465a1-4ac1-4ee7-86d6-8240983bac8e")
-	)
-	(pad "" smd custom
-		(at -1.8527 4.94 90)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -5.003)
-				(width 0.3)
-			)
-		)
-		(uuid "4f73aa82-9b7a-4f7c-9b29-0d54adabca38")
-	)
-	(pad "" smd custom
-		(at 1.8527 0.96 270)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 -0.3723)
-				(end 0 -4.7973)
-				(width 0.3)
-			)
-			(gr_line
-				(start 0 -4.7973)
-				(end -0.94 -5.7373)
-				(width 0.3)
-			)
-		)
-		(uuid "6cfdfd7d-df2a-411b-b41b-d9a2d01c9163")
-	)
-	(pad "" smd custom
-		(at 1.8527 0.96 270)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 -0.3723)
-				(end 0 -4.7973)
-				(width 0.3)
-			)
-			(gr_line
-				(start 0 -4.7973)
-				(end -0.939999 -5.737299)
-				(width 0.3)
-			)
-		)
-		(uuid "79ca1128-9174-4a59-bfa3-d485ee4bb5b6")
-	)
-	(pad "" smd custom
-		(at 1.8527 2.96 270)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -4.9723)
-				(width 0.3)
-			)
-		)
-		(uuid "13c6002d-a7ca-49a8-865b-81795813930d")
-	)
-	(pad "" smd custom
-		(at 1.8527 2.96 270)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -4.9723)
-				(width 0.3)
-			)
-		)
-		(uuid "51d65f47-3368-4646-b586-d8d6b80f9e0f")
-	)
-	(pad "" smd custom
-		(at 1.8527 4.96 270)
-		(size 0.1 0.1)
-		(layers "F.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -5.003)
-				(width 0.3)
-			)
-		)
-		(uuid "647bd819-77c8-4ad6-af2b-b77885463d05")
-	)
-	(pad "" smd custom
-		(at 1.8527 4.96 270)
-		(size 0.1 0.1)
-		(layers "B.Cu")
-		(zone_connect 0)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_line
-				(start 0 0)
-				(end 0 -5.003)
-				(width 0.3)
-			)
-		)
-		(uuid "b8b99caf-bd1c-421c-a863-730aff1db3af")
-	)
-	(pad "" smd custom
-		(at 3.096 6.893177 270)
+		(at -3.096 3.135453 90)
 		(size 0.1 0.1)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -1854,10 +1666,10 @@
 				(fill yes)
 			)
 		)
-		(uuid "a38f57f2-a847-44af-9bbd-f5ee2b04b2cd")
+		(uuid "06cd6e8b-db65-4b10-99f5-32788e43f5d5")
 	)
 	(pad "" smd custom
-		(at 3.096 6.893177 270)
+		(at -3.096 3.135453 90)
 		(size 0.1 0.1)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -1874,7 +1686,247 @@
 				(fill yes)
 			)
 		)
-		(uuid "7a2b9bd9-00c4-4748-a19b-642f4c67d80f")
+		(uuid "7145a25f-7989-49df-881e-f528b93cdd87")
+	)
+	(pad "" smd custom
+		(at -3.096 5.035453 90)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2d82ec7e-3839-43d0-9505-82cf7e3d9ad5")
+	)
+	(pad "" smd custom
+		(at -3.096 5.035453 90)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3ca67ea1-8a7f-45fc-b84b-32f04b54edf1")
+	)
+	(pad "" smd custom
+		(at -3.096 6.935453 90)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6e903046-e7c6-4876-b8a0-84f50bfbe8a6")
+	)
+	(pad "" smd custom
+		(at -3.096 6.935453 90)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d64d3fe8-b64c-4e2a-822d-643fc9891079")
+	)
+	(pad "" smd custom
+		(at 3.096 1.243177 270)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "73613a08-f909-4c6b-9d9b-4fa49dd84544")
+	)
+	(pad "" smd custom
+		(at 3.096 1.243177 270)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ab4a5955-7b0d-4d21-b11a-9571e8c42ce2")
+	)
+	(pad "" smd custom
+		(at 3.096 3.143177 270)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "838c80c3-1846-4d40-9e9d-093d12f692d5")
+	)
+	(pad "" smd custom
+		(at 3.096 3.143177 270)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2ca214c3-4c59-4a2b-aa38-7abd1040dd62")
+	)
+	(pad "" smd custom
+		(at 3.096 5.043177 270)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "2634674f-d615-4958-b774-e085cbed7744")
+	)
+	(pad "" smd custom
+		(at 3.096 5.043177 270)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1a69848a-f6a5-4c00-8c07-8bf64a222121")
+	)
+	(pad "" smd custom
+		(at 3.096 6.943177 270)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b3f30366-60ca-482e-8518-e38d1bec597b")
+	)
+	(pad "" smd custom
+		(at 3.096 6.943177 270)
+		(size 0.1 0.1)
+		(layers "B.Cu")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.6 -0.2) (xy 0 0.4) (xy -0.6 -0.2) (xy -0.6 -0.4) (xy 0.6 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e0058796-abf6-43e1-8d81-53e034d7f7ec")
 	)
 	(pad "" smd custom
 		(at 5.7987 -7.62 270)
@@ -1894,7 +1946,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "26c5b393-4286-4414-82fa-ffb26ad8ea00")
+		(uuid "da77c266-0010-4b23-848b-7fdaba8019cd")
 	)
 	(pad "" smd custom
 		(at 5.7987 -7.62 270)
@@ -1914,7 +1966,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "01b67ebc-a443-49bc-9fce-c741f4d410ab")
+		(uuid "f31376ed-cc8b-4f58-a9c3-5c3563f1c482")
 	)
 	(pad "" smd custom
 		(at 5.7987 -5.08 270)
@@ -1934,7 +1986,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "05c20ac8-13f8-42bf-980a-032b32af81b8")
+		(uuid "b4709e49-84cb-499b-9121-d6859ccb123a")
 	)
 	(pad "" smd custom
 		(at 5.7987 -5.08 270)
@@ -1954,7 +2006,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "af96959e-f3c7-49ff-92eb-cd72d30cfdbd")
+		(uuid "de4fac02-6c08-49d0-8720-2ef0904e835c")
 	)
 	(pad "" smd custom
 		(at 5.7987 -2.55 270)
@@ -1974,7 +2026,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "bf1162d3-4a6c-42e4-accb-cb0e9b2a400d")
+		(uuid "de2b491e-42e5-40f9-8f6f-5607c5d70e2d")
 	)
 	(pad "" smd custom
 		(at 5.7987 -2.55 270)
@@ -1994,7 +2046,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "05a1ff61-b0d7-4d36-88aa-733dbeea9379")
+		(uuid "e6b20cce-9a39-4482-84b9-c753c428b212")
 	)
 	(pad "" smd custom
 		(at 6.3067 -7.62)
@@ -2006,7 +2058,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "aca669e1-d0df-4637-87b0-e2bce0b32b36")
+		(uuid "c09113bb-dc7e-4ef3-aea4-054c4aea4b3e")
 	)
 	(pad "" smd custom
 		(at 6.3067 -7.62)
@@ -2018,7 +2070,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "7696b253-2eaf-4dc2-bf8f-aa42c8c1ffd2")
+		(uuid "27653709-5bf4-43c8-9041-35c574742237")
 	)
 	(pad "" smd custom
 		(at 6.3067 -5.08)
@@ -2030,7 +2082,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "82140574-c12c-4683-830d-088ddd9d4e5d")
+		(uuid "65b4dae5-e960-4201-9e97-82df1c23cae8")
 	)
 	(pad "" smd custom
 		(at 6.3067 -5.08)
@@ -2042,7 +2094,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "ff0eb14e-b8e1-4899-9919-8efce8c57795")
+		(uuid "b5b80279-96a9-4939-b0d1-a9cfdd170a7a")
 	)
 	(pad "" smd custom
 		(at 6.3067 -2.55)
@@ -2054,7 +2106,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "02db8563-60a3-405d-a3ac-46bb12514407")
+		(uuid "251ebf40-5ce6-45df-aaa4-c479a084d449")
 	)
 	(pad "" smd custom
 		(at 6.3067 -2.55)
@@ -2066,7 +2118,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "a31ee903-3d72-4258-89fe-b4d355dd7ae5")
+		(uuid "e5f548e9-4d1d-461d-a0a9-bdf28a5e7a1a")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 -7.62 180)
@@ -2077,7 +2129,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "ae516570-a837-4ec7-a722-6d190e57c256")
+		(uuid "0e2d9cc9-2f42-401e-b8fd-c42706e43475")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 -5.08 180)
@@ -2088,7 +2140,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "2338eb22-64ca-4f30-8ba1-2f7cf75ffba1")
+		(uuid "6321dd05-62b9-4e9c-80b0-abf14ebe9538")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 -2.54 180)
@@ -2099,7 +2151,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "890f2928-0780-4ddd-8ccb-24fccaa5c6fc")
+		(uuid "3fdca54b-ca26-4ccb-b9ba-c5609aa853bd")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 0 180)
@@ -2110,7 +2162,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "4522c285-a407-4012-88ce-5549f5f2a2d9")
+		(uuid "9c7597b5-1820-48e4-bae2-519a1d1231dd")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 2.54 180)
@@ -2121,7 +2173,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "0a4f1792-568b-402b-9700-fd4b01130ff8")
+		(uuid "a2f4f90d-71b5-4653-bf2b-0604d9a6b7b4")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 5.08 180)
@@ -2132,7 +2184,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "867e444b-3681-4baf-9d08-1188c3544771")
+		(uuid "7fe6fa80-0ef2-49b0-b10c-a811136eced8")
 	)
 	(pad "" thru_hole oval
 		(at 7.5807 7.62 180)
@@ -2143,7 +2195,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "9c4384c0-9a57-4262-8711-eec9b8ecb4c6")
+		(uuid "59dd1014-413f-456b-b570-da646432bba6")
 	)
 	(pad "1" smd custom
 		(at -3.55 -7.62 270)
@@ -2163,7 +2215,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "22d2d647-2563-493a-bffb-08d4acede41d")
+		(uuid "600a9743-1934-41bb-a9f6-25a5c0ed8fe8")
 	)
 	(pad "1" thru_hole circle
 		(at 3.94 -8.07)
@@ -2171,7 +2223,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "d0b36859-8a6f-4724-960b-f37ee3f188e9")
+		(uuid "cc5f90c7-f0d9-49f7-93d4-ddcc48f4cff8")
 	)
 	(pad "1" smd custom
 		(at 4.7827 -7.62 270)
@@ -2196,7 +2248,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "0720e2cd-ed2f-4235-a447-c945ec18607e")
+		(uuid "1f90c858-9a70-495e-9901-a46459085966")
 	)
 	(pad "2" smd custom
 		(at -4.8 -5.08 270)
@@ -2208,13 +2260,6 @@
 			(anchor rect)
 		)
 		(primitives
-			(gr_poly
-				(pts
-					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
-				)
-				(width 0)
-				(fill yes)
-			)
 			(gr_line
 				(start -0.45 -0.25)
 				(end -0.45 -2.16)
@@ -2227,24 +2272,26 @@
 			)
 			(gr_line
 				(start 0.14 -2.75)
-				(end 0.14 -6.8327)
+				(end 0.14 -6.4)
 				(width 0.3)
 			)
-			(gr_line
-				(start 0.140033 -6.832667)
-				(end -0.45 -7.4227)
-				(width 0.3)
+			(gr_poly
+				(pts
+					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
+				)
+				(width 0)
+				(fill yes)
 			)
 		)
-		(uuid "84218a5d-a164-4bec-845d-bf3c9fec953e")
+		(uuid "73943d6b-69fb-4e3d-abef-0b9f400c512f")
 	)
 	(pad "2" thru_hole circle
-		(at 2.6227 -5.53)
+		(at 1.6 -4.94)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "db719b4a-0a77-4f1d-93eb-cb2b880bd85a")
+		(uuid "0cb09290-c700-4d34-8e8e-8439830123c5")
 	)
 	(pad "2" smd custom
 		(at 4.7827 -5.08 90)
@@ -2264,7 +2311,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "6c7e9343-4dbe-435b-b61b-ffe4639393f8")
+		(uuid "1c7db2a1-d10c-4d1b-b514-1ddf2f43809c")
 	)
 	(pad "3" smd custom
 		(at -4.8 -2.54 270)
@@ -2289,7 +2336,7 @@
 				(width 0.3)
 			)
 		)
-		(uuid "02c4570f-c94e-45d4-8857-8876fd835dc8")
+		(uuid "b9d9e36d-6601-4a76-a765-0841827b8433")
 	)
 	(pad "3" thru_hole circle
 		(at 3.98 -2.99)
@@ -2297,7 +2344,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "07f88682-5adc-48e2-927e-01f91dbcbf7c")
+		(uuid "d1a61c03-62bb-4cd7-ba5a-7e50980aec0c")
 	)
 	(pad "3" smd custom
 		(at 4.7827 -2.54 270)
@@ -2322,10 +2369,10 @@
 				(width 0.3)
 			)
 		)
-		(uuid "9f0b1d9f-305a-4844-ab60-3920f38221c9")
+		(uuid "3b0a8657-9ec8-4709-81af-ae0e6c2233d9")
 	)
 	(pad "4" smd custom
-		(at -0.85 0.95 270)
+		(at -2.0933 1.245453 270)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2334,6 +2381,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 -3.3366)
+				(end 0.45 0)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2341,24 +2393,19 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 -0.85)
-				(end 0.45 0)
-				(width 0.3)
-			)
 		)
-		(uuid "7c9e24fa-7e8c-44eb-a9e5-093b5d097ce0")
+		(uuid "ce702f8f-d110-487c-bcf3-4a54a46e65d5")
 	)
 	(pad "4" thru_hole circle
-		(at 0 1.4)
+		(at 1.2433 1.695453)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "05be22ee-d427-4adb-9b6c-ef9986eee344")
+		(uuid "4d0101d7-d6b0-420c-a37b-091a23ac33c1")
 	)
 	(pad "4" smd custom
-		(at 0.85 0.95 270)
+		(at 2.0933 1.233177 270)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2380,10 +2427,10 @@
 				(width 0.3)
 			)
 		)
-		(uuid "22271316-363e-4e63-b278-650a7c3fc7a3")
+		(uuid "9a309fe5-0dfd-42b5-88b3-a0674c3f4ea0")
 	)
 	(pad "5" smd custom
-		(at -0.85 2.95 270)
+		(at -2.0933 3.145453 270)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2392,6 +2439,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 -3.3366)
+				(end 0.45 0)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2399,24 +2451,19 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 -0.85)
-				(end 0.45 0)
-				(width 0.3)
-			)
 		)
-		(uuid "04256c4a-d160-48ec-a848-eb3ddae128d3")
+		(uuid "156b1e66-0fae-409e-aa77-8d8d84923d63")
 	)
 	(pad "5" thru_hole circle
-		(at 0 3.4)
+		(at 1.2433 3.595453)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "8fc2d571-fb23-4230-8bfe-0bfd66006f8c")
+		(uuid "13972bd6-afa3-42bd-b481-88d4fb5e16a7")
 	)
 	(pad "5" smd custom
-		(at 0.85 2.95 270)
+		(at 2.0933 3.133177 270)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2438,10 +2485,10 @@
 				(width 0.3)
 			)
 		)
-		(uuid "a1ccb751-46d3-48bc-aa24-f62383b6f21c")
+		(uuid "9d5f5a41-27ac-4a36-a42a-a1f5e6e95dc0")
 	)
 	(pad "6" smd custom
-		(at -0.85 4.95 270)
+		(at -2.0933 5.045453 270)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2450,6 +2497,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 -3.3366)
+				(end 0.45 0)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2457,24 +2509,19 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 -0.85)
-				(end 0.45 0)
-				(width 0.3)
-			)
 		)
-		(uuid "da443a3a-9081-40e9-97a9-d0f37ef2b6a4")
+		(uuid "6485b343-efef-4e25-a044-48a73b8497ad")
 	)
 	(pad "6" thru_hole circle
-		(at 0 5.4)
+		(at 1.2433 5.495453)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "fdaea7e5-76a7-404b-ad53-8a71d3e79bba")
+		(uuid "a18e59c5-8f53-4059-ba12-5aee89cb9b73")
 	)
 	(pad "6" smd custom
-		(at 0.85 4.95 270)
+		(at 2.0933 5.033177 270)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2496,10 +2543,10 @@
 				(width 0.3)
 			)
 		)
-		(uuid "44c45f61-888f-40cc-b557-a475565c7f4b")
+		(uuid "eea388f7-5b7f-4bdb-9aa9-abae85fd3a1e")
 	)
 	(pad "7" smd custom
-		(at -2.0933 6.895453 270)
+		(at -2.0933 6.945453 270)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2509,7 +2556,7 @@
 		)
 		(primitives
 			(gr_line
-				(start 0.45 -0.85)
+				(start 0.45 -3.3366)
 				(end 0.45 0)
 				(width 0.3)
 			)
@@ -2521,18 +2568,18 @@
 				(fill yes)
 			)
 		)
-		(uuid "f89d4878-1af6-4d9e-9bca-574a95404ad6")
+		(uuid "de8cde36-e909-40d4-af0b-22ddd66cf9af")
 	)
 	(pad "7" thru_hole circle
-		(at 1.2433 7.333177)
+		(at 1.2433 7.395453)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "fa78ec5e-cf34-44b3-801c-3501f2c17be9")
+		(uuid "a042d214-eac6-4506-878b-f0804259707d")
 	)
 	(pad "7" smd custom
-		(at 2.0933 6.883177 270)
+		(at 2.0933 6.933177 270)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2554,10 +2601,10 @@
 				(width 0.3)
 			)
 		)
-		(uuid "118d765d-cd2b-4031-92ce-05c42a9d56fb")
+		(uuid "7b4ba9be-6db4-4c64-8ee2-28e29d4a03f8")
 	)
 	(pad "8" smd custom
-		(at -2.0933 6.895453 90)
+		(at -2.0933 6.945453 90)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2579,18 +2626,18 @@
 				(width 0.3)
 			)
 		)
-		(uuid "09ab14ed-cda6-4910-891b-6c606f1eaabb")
+		(uuid "d4ed816f-a485-4ecc-a0e7-7340a3bd611a")
 	)
 	(pad "8" thru_hole circle
-		(at 1.2433 6.433177)
+		(at -1.2433 6.483177)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "8c56e01f-0fc8-43e1-b740-f3375c99cbd8")
+		(uuid "34e04e36-8a02-477a-8247-a97b57fce4a2")
 	)
 	(pad "8" smd custom
-		(at 2.0933 6.883177 90)
+		(at 2.0933 6.933177 90)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2599,6 +2646,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 0)
+				(end 0.45 -3.3366)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2606,16 +2658,11 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 0)
-				(end 0.45 -0.85)
-				(width 0.3)
-			)
 		)
-		(uuid "4dbb0c8a-2154-4854-8474-a8d264540a92")
+		(uuid "2dd726fb-8b35-4f50-a7bc-f780ef4b77c8")
 	)
 	(pad "9" smd custom
-		(at -0.85 4.95 90)
+		(at -2.0933 5.045453 90)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2637,18 +2684,18 @@
 				(width 0.3)
 			)
 		)
-		(uuid "a5dec6af-de33-482e-9bb1-014dcc0a6b30")
+		(uuid "4293a73d-eb8d-40c4-8222-40bdb4a4f1d4")
 	)
 	(pad "9" thru_hole circle
-		(at 0 4.5)
+		(at -1.2433 4.583177)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "c67447e7-28f0-4583-aaea-c7ddef6d7a15")
+		(uuid "c563c60a-2721-414a-8a6b-b2e314cc3eb8")
 	)
 	(pad "9" smd custom
-		(at 0.85 4.95 90)
+		(at 2.0933 5.033177 90)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2657,6 +2704,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 0)
+				(end 0.45 -3.3366)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2664,16 +2716,11 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 0)
-				(end 0.45 -0.85)
-				(width 0.3)
-			)
 		)
-		(uuid "5a4ce955-18a8-4687-9669-5cf1668e46c3")
+		(uuid "e53e035a-283e-4a54-aa67-e12b4d7f15b6")
 	)
 	(pad "10" smd custom
-		(at -0.85 2.95 90)
+		(at -2.0933 3.145453 90)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2695,18 +2742,18 @@
 				(width 0.3)
 			)
 		)
-		(uuid "a79832e3-093b-420b-a2e9-0666cdc40354")
+		(uuid "8b8a4666-2d41-4b4e-a4b0-0ad06c4e3cbd")
 	)
 	(pad "10" thru_hole circle
-		(at 0 2.5)
+		(at -1.2433 2.683177)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "85da7bfc-8a39-44a2-a91a-d2bc4ac22998")
+		(uuid "75dc8c98-c042-485d-9b70-9679493b58eb")
 	)
 	(pad "10" smd custom
-		(at 0.85 2.95 90)
+		(at 2.0933 3.133177 90)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2715,6 +2762,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 0)
+				(end 0.45 -3.3366)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2722,16 +2774,11 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 0)
-				(end 0.45 -0.85)
-				(width 0.3)
-			)
 		)
-		(uuid "c2d03e5e-26be-430c-84aa-24fba26a8bb3")
+		(uuid "673d8652-a654-4792-b0c1-14245aff268c")
 	)
 	(pad "11" smd custom
-		(at -0.85 0.95 90)
+		(at -2.0933 1.245453 90)
 		(size 1.2 0.5)
 		(layers "F.Cu")
 		(zone_connect 0)
@@ -2753,18 +2800,18 @@
 				(width 0.3)
 			)
 		)
-		(uuid "b64fe122-d3e5-477e-a2dd-0cf68cd08035")
+		(uuid "832386ec-7038-4c60-ab85-1b365f1e5b03")
 	)
 	(pad "11" thru_hole circle
-		(at 0 0.5)
+		(at -1.2433 0.783177)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "0bd52731-981f-4a4b-ad97-8c913ad0e7bd")
+		(uuid "3e985250-b9aa-4c8e-822f-f4fafe531a3a")
 	)
 	(pad "11" smd custom
-		(at 0.85 0.95 90)
+		(at 2.0933 1.233177 90)
 		(size 1.2 0.5)
 		(layers "B.Cu")
 		(zone_connect 0)
@@ -2773,6 +2820,11 @@
 			(anchor rect)
 		)
 		(primitives
+			(gr_line
+				(start 0.45 0)
+				(end 0.45 -3.3366)
+				(width 0.3)
+			)
 			(gr_poly
 				(pts
 					(xy 0.6 0) (xy -0.6 0) (xy -0.6 1) (xy 0 0.4) (xy 0.6 1)
@@ -2780,13 +2832,8 @@
 				(width 0)
 				(fill yes)
 			)
-			(gr_line
-				(start 0.45 0)
-				(end 0.45 -0.85)
-				(width 0.3)
-			)
 		)
-		(uuid "3fa6574d-f46c-4f76-a494-8b2c8c6a1ad9")
+		(uuid "3d66045b-0a9e-4544-9cfc-88a3f01c8762")
 	)
 	(pad "12" smd custom
 		(at -4.8 -2.54 90)
@@ -2811,7 +2858,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "8101af05-7eac-4be4-9d78-6c472e675f18")
+		(uuid "134735ac-9476-49c7-b5c0-5168b6143d41")
 	)
 	(pad "12" thru_hole circle
 		(at -3.852882 -2.060736)
@@ -2819,7 +2866,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "dc436586-747f-4b4c-8cc6-8a123cf0bd4e")
+		(uuid "657bdff0-10f1-4d9e-a3be-1aefd15b2feb")
 	)
 	(pad "12" smd custom
 		(at 4.7827 -2.54 270)
@@ -2844,7 +2891,7 @@
 				(width 0.3)
 			)
 		)
-		(uuid "fd77d183-27d1-4957-9deb-5ef54099e4d1")
+		(uuid "44a2554d-4f9f-407f-81c4-1ade71abaef8")
 	)
 	(pad "13" smd custom
 		(at -4.8 -5.08 90)
@@ -2869,7 +2916,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "93d4e56a-be55-44fe-bf59-52164e663956")
+		(uuid "74a855a9-c93f-495c-8e77-da4cf901fada")
 	)
 	(pad "13" thru_hole circle
 		(at -3.89 -4.63)
@@ -2877,7 +2924,7 @@
 		(drill 0.5)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "09e5ac96-3584-46a5-b5b4-3afa98c71b27")
+		(uuid "33f8fd94-02d1-4f8f-b9ef-b9b9118439f5")
 	)
 	(pad "13" smd custom
 		(at 4.7827 -5.08 270)
@@ -2922,7 +2969,7 @@
 				(width 0.5)
 			)
 		)
-		(uuid "cfced234-2b74-447c-abe3-76fd09d6dd8f")
+		(uuid "f8af9060-af4b-48cc-9db3-0bb7b985543c")
 	)
 	(pad "14" smd custom
 		(at -3.55 -7.62 90)
@@ -2947,7 +2994,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "17ed3569-c6e6-4f83-bc92-955c1c7cb468")
+		(uuid "f7c76605-3fb0-4fa7-aba8-d2c5bbe79e2b")
 	)
 	(pad "14" thru_hole circle
 		(at -2.29 -7.27)
@@ -2955,7 +3002,7 @@
 		(drill 0.5)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "1d974544-4fa7-45b3-ad38-d849031e86a9")
+		(uuid "b717f507-d6f5-4469-a524-63926c18bff7")
 	)
 	(pad "14" smd custom
 		(at 4.7827 -7.62 270)
@@ -2975,7 +3022,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "5e046dc9-06a3-4b36-9a82-b8f6564ddddd")
+		(uuid "5e12ae51-958a-4c8f-837a-8a024ae9ba4b")
 	)
 	(pad "18" thru_hole roundrect
 		(at -1.27 -6.0325)
@@ -2986,21 +3033,19 @@
 		(keep_end_layers yes)
 		(roundrect_rratio 0.119047619)
 		(thermal_bridge_angle 45)
-		(uuid "fd9803dd-fafa-4df2-8d29-693072021d89")
+		(uuid "2ba4e5e6-cc97-47dc-a4a6-df4af1745d26")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
@@ -3012,189 +3057,162 @@
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
@@ -3211,21 +3229,19 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "05113ee2-ac6c-474f-a335-ad3648376074")
+		(uuid "5c9a98d3-ebc2-4cb4-87bc-c133e80e5ca0")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
@@ -3253,196 +3269,168 @@
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -3470,217 +3458,187 @@
 				(fill yes)
 			)
 		)
-		(uuid "79509df8-dd6d-474b-bcaa-263daec27871")
+		(uuid "6760ac6a-5e40-4095-8290-32aeb27b8b35")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
@@ -3694,7 +3652,7 @@
 		(at 0 -0.318)
 		(size 8.89 0.5)
 		(layers "B.Cu")
-		(uuid "303b1452-b401-4c4f-b348-f49cc3b1d815")
+		(uuid "5f573161-892f-4324-bea8-3f224211c69b")
 	)
 	(pad "19" thru_hole circle
 		(at 4.445 -0.3175)
@@ -3703,21 +3661,19 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "7c162277-484b-4c11-850d-15c455a093ed")
+		(uuid "face8387-3675-4ce6-a311-b785c6d9f301")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
@@ -3745,196 +3701,168 @@
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -3946,224 +3874,193 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "068405bf-818d-4c4f-859b-7fc1c737161b")
+		(uuid "a9d811c0-9cdc-48b8-b775-945626c6b241")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -4177,217 +4074,187 @@
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "46d29757-d475-40f9-914a-52bdfa016ae0")
+		(uuid "3f0df2d6-4a25-4d53-b1b0-37509be2544a")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
@@ -4404,224 +4271,193 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
-		(uuid "c5ee00b1-8019-455d-a124-0dcbf76bdc50")
+		(uuid "2a8c585e-0f98-41ac-b72b-29058606e88e")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
@@ -4635,217 +4471,187 @@
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "cfec37db-fb55-4073-900b-e757e7be17db")
+		(uuid "3e7835a8-7e38-4d47-b892-a8a5a0802514")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.25)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape roundrect)
 				(size 2.5 1.1)
 				(roundrect_rratio 0.119047619)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"

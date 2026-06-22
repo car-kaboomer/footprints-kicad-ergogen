@@ -543,10 +543,10 @@ module.exports = {
     `;
 
     const instructions = `
-    (fp_text user "R hand back side (M${!p.reverse_mount ? '↑' : '↓'})" (at 0 -15.245 ${p.r}) (layer "F.SilkS")
+    (fp_text user "Comp. down: jumpers here" (at 0 -15.245 ${p.r}) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user "L hand back side (M${!p.reverse_mount ? '↑' : '↓'})" (at 0 -15.245 ${p.r}) (layer "B.SilkS")
+    (fp_text user "Comp. up: jumpers here" (at 0 -15.245 ${p.r}) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     `
